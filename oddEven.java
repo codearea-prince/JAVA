@@ -5,7 +5,7 @@ public class oddEven {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter a number");
         int n=sc.nextInt();
-        if(n%2==1)
+        if(n&1)
         {
             System.out.println("odd number");
         }
